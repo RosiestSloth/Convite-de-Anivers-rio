@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Background } from "./components/invitation/Background";
 import { EnvelopeScene } from "./components/invitation/EnvelopeScene";
 import { InvitationCard } from "./components/invitation/InvitationCard";
-import { gifts } from "./components/invitation/constants";
+import { vests } from "./components/invitation/constants";
 
 export default function Invitation() {
   const [opened, setOpened] = useState(false);
@@ -43,7 +43,7 @@ export default function Invitation() {
         onOpen={handleOpen}
       />
 
-      <InvitationCard cardVisible={cardVisible} gifts={gifts} onClose={handleClose} />
+      <InvitationCard cardVisible={cardVisible} vests={vests} onClose={handleClose} />
     </main>
   );
 }

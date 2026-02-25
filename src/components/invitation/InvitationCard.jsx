@@ -1,4 +1,4 @@
-export function InvitationCard({ cardVisible, gifts, onClose }) {
+export function InvitationCard({ cardVisible, vests, onClose }) {
     return (
         <>
             <button
@@ -100,16 +100,16 @@ export function InvitationCard({ cardVisible, gifts, onClose }) {
 
                         <div className="mb-8">
                             <div className="font-montserrat mb-4 text-[10px] font-medium tracking-[4px] text-[#2E5BA8CC] uppercase">
-                                Lista de presentes sugeridos
+                                Vestimentas Sugeridas
                             </div>
                             <div className="grid grid-cols-2 gap-2.5 md:grid-cols-3">
-                                {gifts.map((gift) => (
+                                {vests.map((vest) => (
                                     <div
-                                        key={gift.name}
+                                        key={vest.name}
                                         className="flex items-center gap-2 rounded-lg border border-[rgba(46,91,168,0.14)] bg-white/70 px-3 py-2"
                                     >
-                                        <span className="text-[17px]">{gift.emoji}</span>
-                                        <div className="font-montserrat text-[12px] text-[#1A3A6E]">{gift.name}</div>
+                                        <span className="text-[17px]">{vest.emoji}</span>
+                                        <div className="font-montserrat text-[12px] text-[#1A3A6E]">{vest.name}</div>
                                     </div>
                                 ))}
                             </div>
