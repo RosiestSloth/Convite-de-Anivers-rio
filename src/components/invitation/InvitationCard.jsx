@@ -68,7 +68,7 @@ export function InvitationCard({ cardVisible, gifts, onClose }) {
                                 <div className="rounded-lg border border-[rgba(46,91,168,0.14)] bg-white/60 p-4 text-center">
                                     <span className="mb-1 block text-[20px]">🗓️</span>
                                     <p className="font-montserrat text-[10px] tracking-[2px] text-[#2E5BA8B3] uppercase">Data</p>
-                                    <p className="font-cormorant mt-0.5 text-[24px] text-[#1A3A6E]">15 de Maio</p>
+                                    <p className="font-cormorant mt-0.5 text-[24px] text-[#1A3A6E]">09 de Maio</p>
                                     <p className="font-montserrat text-[11px] text-[#2C4A7C99]">Sábado, 2026</p>
                                 </div>
                                 <div className="rounded-lg border border-[rgba(46,91,168,0.14)] bg-white/60 p-4 text-center">

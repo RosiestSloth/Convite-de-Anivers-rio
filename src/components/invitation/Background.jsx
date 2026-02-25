@@ -1,9 +1,9 @@
-import { particles, wave2, wave3 } from "./constants";
+import { particles } from "./constants";
 
 export function Background() {
   return (
     <>
-      <div className="fixed inset-0 z-0 bg-[url('img/Ocean_BG.png')] bg-cover bg-center">
+      <div id="fundo-site" className="fixed inset-0 z-0 bg-cover bg-center">
         <div className="inset-0 absolute bg-linear-to-tl from-(--color-cobalt)/70 via-(--color-ocean-deep)/60 to-transparent" />
       </div>
 
