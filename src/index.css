@@ -43,11 +43,6 @@
   border-radius: 4px;
 }
 
-#fundo-site {
-  background: url('img/Ocean_BG.png') center center fixed;
-}
-
-
 @keyframes wave {
   0% {
     transform: translateX(0);

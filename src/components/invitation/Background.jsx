@@ -3,7 +3,7 @@ import { particles } from "./constants";
 export function Background() {
   return (
     <>
-      <div id="fundo-site" className="fixed inset-0 z-0 bg-cover bg-center">
+      <div id="fundo-site" className="fixed inset-0 z-0 bg-cover bg-center bg-[url('img/ocean_bg.png')]">
         <div className="inset-0 absolute bg-linear-to-tl from-(--color-cobalt)/70 via-(--color-ocean-deep)/60 to-transparent" />
       </div>
 
