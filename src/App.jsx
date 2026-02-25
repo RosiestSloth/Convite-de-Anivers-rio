@@ -1,5 +1,4 @@
 import { useState } from "react";
-  { emoji: "🍾", name: "Espumante" },
 import { Background } from "./components/invitation/Background";
 import { EnvelopeScene } from "./components/invitation/EnvelopeScene";
 import { InvitationCard } from "./components/invitation/InvitationCard";
