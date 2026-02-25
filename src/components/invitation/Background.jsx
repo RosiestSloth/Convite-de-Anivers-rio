@@ -7,8 +7,8 @@ export function Background() {
         id="fundo-site"
         className="fixed inset-0 z-0"
       >
-        <div className="inset-0 absolute bg-linear-to-tl from-(--color-cobalt)/70 via-(--color-ocean-deep)/60 to-transparent" />
-        <img src="img/backgrounds/ocean_bg.png" className="object-cover inset-0 size-full object-center" alt="" />
+        <div className="inset-0 absolute bg-linear-to-tl z-1 from-(--color-cobalt)/70 via-(--color-ocean-deep)/60 to-transparent" />
+        <img src="/img/backgrounds/ocean_bg.png" className="absolute z-0 object-cover inset-0 size-full object-center" alt="" />
       </div>
 
       <div className="pointer-events-none fixed inset-0 z-0">
