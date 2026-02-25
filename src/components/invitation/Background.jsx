@@ -5,9 +5,10 @@ export function Background() {
     <>
       <div
         id="fundo-site"
-        className="fixed inset-0 z-0 bg-cover bg-center bg-[url('src/assets/backgrounds/ocean_bg.png')]"
+        className="fixed inset-0 z-0"
       >
         <div className="inset-0 absolute bg-linear-to-tl from-(--color-cobalt)/70 via-(--color-ocean-deep)/60 to-transparent" />
+        <img src="src/assets/backgrounds/ocean_bg.png" className="object-cover inset-0 size-full object-center" alt="" />
       </div>
 
       <div className="pointer-events-none fixed inset-0 z-0">
