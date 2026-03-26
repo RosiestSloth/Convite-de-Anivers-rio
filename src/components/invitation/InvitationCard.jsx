@@ -93,7 +93,7 @@ export function InvitationCard({ cardVisible, vests, onClose }) {
                                         <br />
                                         Caldas Novas - GO
                                     </p>
-                                    <a className="flex flex-row items-center justify-center p-2 bg-[#e8f4f8] rounded-lg hover:bg-[#d1e8f0] transition font-montserrat font-bold text-xs md:text-md text-blue-600" target="_blank" href=""><img className="size-8" src="svg/Google-Maps.svg" alt="" />Visualizar Localização</a>
+                                    <a className="flex flex-row items-center justify-center p-2 bg-[#e8f4f8] rounded-lg hover:bg-[#d1e8f0] transition font-montserrat font-bold text-xs md:text-md text-blue-600 gap-4" target="_blank" href="https://maps.app.goo.gl/YGmzKdBm1DQJCh8S6"><img className="size-8" src="svg/Google-Maps.svg" alt="" />Visualizar Localização</a>
                                 </div>
                             </div>
                         </div>
@@ -102,7 +102,7 @@ export function InvitationCard({ cardVisible, vests, onClose }) {
                             <div className="font-montserrat mb-4 text-[10px] font-medium tracking-[4px] text-[#2E5BA8CC] uppercase">
                                 Vestimentas Sugeridas
                             </div>
-                            <div className="grid grid-cols-2 gap-2.5 md:grid-cols-3">
+                            <div className="grid gap-2.5 md:grid-cols-2">
                                 {vests.map((vest) => (
                                     <div
                                         key={vest.name}

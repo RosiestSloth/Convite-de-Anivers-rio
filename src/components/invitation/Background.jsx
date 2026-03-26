@@ -19,6 +19,7 @@ export function Background() {
             style={{
               left: `${particle.left}%`,
               width: particle.size,
+              top: `${particle.top}%`,
               height: particle.size,
               animationDuration: `${particle.duration}s`,
               animationDelay: `${particle.delay}s`,
