@@ -80,7 +80,7 @@ export function EnvelopeScene({ sceneHidden, letterRising, flapOpen, onOpen }) {
                 />
               </div>
 
-              <div className="absolute bottom-6 left-1/2 z-5 flex size-15 -translate-x-1/2 items-center justify-center rounded-full bg-[radial-gradient(circle_at_35%_35%,#d4a853,#8B6914,#5c4209)] shadow-[0_4px_16px_rgba(0,0,0,0.4),inset_0_1px_2px_rgba(255,255,255,0.2)]">
+              <div className={`absolute transition top-1/2 -translate-y-1/2 left-1/2 z-5 flex size-15 -translate-x-1/2 items-center justify-center rounded-full bg-[radial-gradient(circle_at_35%_35%,#d4a853,#8B6914,#5c4209)] shadow-[0_4px_16px_rgba(0,0,0,0.4),inset_0_1px_2px_rgba(255,255,255,0.2)] ${flapOpen ? "scale-140 opacity-0 duration-700" : "scale-100 duration-1000"}`}>
                 <span className="font-cormorant select-none text-[22px] font-light text-[rgba(255,255,255,0.85)]">✦</span>
               </div>
             </div>
