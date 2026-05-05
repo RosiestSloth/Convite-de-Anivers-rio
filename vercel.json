@@ -1,7 +1,10 @@
 {
   "routes": [
-    { "src": "/", "dest": "/api/index" },
     { "src": "/assets/(.*)", "dest": "/assets/$1" },
-    { "src": "/(.*)", "dest": "/$1" }
+    { "src": "/img/(.*)", "dest": "/img/$1" },
+    { "src": "/favicon.ico", "dest": "/favicon.ico" },
+    { "src": "/vite.svg", "dest": "/vite.svg" },
+    { "src": "/", "dest": "/api/index" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
