@@ -93,7 +93,7 @@ export function InvitationCard({ cardVisible, vests, onClose }) {
                                         <br />
                                         Caldas Novas - GO
                                     </p>
-                                    <a className="flex flex-row items-center justify-center p-2 bg-[#e8f4f8] rounded-lg hover:bg-[#d1e8f0] transition font-montserrat font-bold text-xs md:text-md text-blue-600 gap-4" target="_blank" href="https://maps.app.goo.gl/YGmzKdBm1DQJCh8S6"><img className="size-8" src="svg/Google-Maps.svg" alt="" />Visualizar Localização</a>
+                                    <a className="flex flex-row items-center justify-center p-2 bg-[#e8f4f8] rounded-lg hover:bg-[#d1e8f0] transition font-montserrat font-bold text-xs md:text-md text-blue-600 gap-4" target="_blank" href="https://maps.app.goo.gl/k2VqnDL3ixEPCnZy8"><img className="size-8" src="svg/Google-Maps.svg" alt="" />Visualizar Localização</a>
                                 </div>
                             </div>
                         </div>
